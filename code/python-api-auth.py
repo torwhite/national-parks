@@ -1,6 +1,6 @@
 import urllib.request, json, os
 
-# Retrieve API key
+# Retrieve API key from local system
 NP_API = os.environ.get('NP_API')
 
 # Configure API request
